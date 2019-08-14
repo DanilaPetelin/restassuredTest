@@ -5,10 +5,12 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-class weatherMethods {
+class WeatherMethods {
+
+    private static final String API_KEY="dfc1b58e7ecdfba571b36a9152292668";
 
     static String getData(String city, String period) {
-        final String API_KEY="dfc1b58e7ecdfba571b36a9152292668";
+
         URL basePath = null;
         HttpURLConnection connection = null;
         StringBuilder data = new StringBuilder();
@@ -32,7 +34,8 @@ class weatherMethods {
                     data.append(line);
                 }
             }else{
-                System.out.println("fail:"+connection.getResponseMessage()+connection.getResponseCode());
+                System.out.println("fail:"+connection.getResponseMessage()+"  ResponseCode: "+connection.getResponseCode());
+                data = null;
             }
         } catch (IOException e) {
             e.printStackTrace();

@@ -14,53 +14,13 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/weatherMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/weatherMethodsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/weather.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="61" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,8 +29,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/weather.java" />
         <option value="$PROJECT_DIR$/src/main/java/weatherMethods.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/weatherMethodsTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/WeatherMethodsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WeatherMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JUnit5Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RestAssuredTest.java" />
       </list>
     </option>
   </component>
@@ -81,10 +46,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1271" />
-    <option name="height" value="1044" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -92,7 +57,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,10 +64,42 @@
               <item name="weatherReport" type="b2602c69:ProjectViewProjectNode" />
               <item name="weatherReport" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="weatherReport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weatherReport" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weatherReport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weatherReport" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weatherReport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weatherReport" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weatherReport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weatherReport" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weatherReport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weatherReport" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,29 +130,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.weatherMethodsTest.TestgetData1">
-    <configuration name="weather" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="weather" />
+  <component name="RunManager" selected="JUnit.RestAssuredTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="weatherReport" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="weatherMethodsTest.TestgetData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JUnit5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weatherReport" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="weatherMethodsTest" />
-      <option name="METHOD_NAME" value="TestgetData" />
+      <option name="MAIN_CLASS_NAME" value="JUnit5Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnit5Test.TestCityFromData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weatherReport" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JUnit5Test" />
+      <option name="METHOD_NAME" value="TestCityFromData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="weatherMethodsTest.TestgetData1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestAssuredTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weatherReport" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="weatherMethodsTest" />
-      <option name="METHOD_NAME" value="TestgetData1" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssuredTest.JsonNotValidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weatherReport" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredTest" />
+      <option name="METHOD_NAME" value="JsonNotValidTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,9 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.weatherMethodsTest.TestgetData1" />
-        <item itemvalue="JUnit.weatherMethodsTest.TestgetData" />
-        <item itemvalue="Application.weather" />
+        <item itemvalue="JUnit.RestAssuredTest" />
+        <item itemvalue="JUnit.RestAssuredTest.JsonNotValidTest" />
+        <item itemvalue="JUnit.JUnit5Test" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.JUnit5Test.TestCityFromData" />
       </list>
     </recent_temporary>
   </component>
@@ -184,42 +200,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="weatherMethodsTest_TestgetData - 2019.08.11 at 17h 15m 48s.xml">
-      <configuration name="weatherMethodsTest.TestgetData" configurationId="JUnit" />
+    <history-entry file="JUnit5Test_testExpectedException - 2019.08.14 at 14h 59m 54s.xml">
+      <configuration name="JUnit5Test.testExpectedException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="weatherMethodsTest_TestgetData - 2019.08.11 at 17h 58m 01s.xml">
-      <configuration name="weatherMethodsTest.TestgetData" configurationId="JUnit" />
+    <history-entry file="RestAssuredTest - 2019.08.14 at 15h 09m 10s.xml">
+      <configuration name="RestAssuredTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="weatherMethodsTest_TestgetData - 2019.08.11 at 18h 01m 47s.xml">
-      <configuration name="weatherMethodsTest.TestgetData" configurationId="JUnit" />
+    <history-entry file="JUnit5Test - 2019.08.14 at 15h 10m 08s.xml">
+      <configuration name="JUnit5Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="weatherMethodsTest_TestgetData - 2019.08.11 at 18h 11m 39s.xml">
-      <configuration name="weatherMethodsTest.TestgetData" configurationId="JUnit" />
+    <history-entry file="JUnit5Test_TestCityFromData - 2019.08.14 at 15h 15m 05s.xml">
+      <configuration name="JUnit5Test.TestCityFromData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="weatherMethodsTest_TestgetData - 2019.08.11 at 18h 13m 05s.xml">
-      <configuration name="weatherMethodsTest.TestgetData" configurationId="JUnit" />
+    <history-entry file="RestAssuredTest - 2019.08.14 at 15h 21m 21s.xml">
+      <configuration name="RestAssuredTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="weatherMethodsTest_TestgetData - 2019.08.11 at 18h 18m 34s.xml">
-      <configuration name="weatherMethodsTest.TestgetData" configurationId="JUnit" />
+    <history-entry file="JUnit5Test - 2019.08.14 at 15h 21m 46s.xml">
+      <configuration name="JUnit5Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="weatherMethodsTest_TestgetData1 - 2019.08.11 at 18h 21m 07s.xml">
-      <configuration name="weatherMethodsTest.TestgetData1" configurationId="JUnit" />
+    <history-entry file="RestAssuredTest_JsonNotValidTest - 2019.08.14 at 15h 50m 33s.xml">
+      <configuration name="RestAssuredTest.JsonNotValidTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="weatherMethodsTest_TestgetData1 - 2019.08.11 at 18h 22m 32s.xml">
-      <configuration name="weatherMethodsTest.TestgetData1" configurationId="JUnit" />
+    <history-entry file="RestAssuredTest_JsonNotValidTest - 2019.08.14 at 15h 57m 37s.xml">
+      <configuration name="RestAssuredTest.JsonNotValidTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="weatherMethodsTest_TestgetData1 - 2019.08.11 at 18h 23m 29s.xml">
-      <configuration name="weatherMethodsTest.TestgetData1" configurationId="JUnit" />
+    <history-entry file="RestAssuredTest_JsonNotValidTest - 2019.08.14 at 15h 58m 31s.xml">
+      <configuration name="RestAssuredTest.JsonNotValidTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="weatherMethodsTest_TestgetData1 - 2019.08.11 at 18h 24m 18s.xml">
-      <configuration name="weatherMethodsTest.TestgetData1" configurationId="JUnit" />
+    <history-entry file="RestAssuredTest - 2019.08.14 at 15h 59m 09s.xml">
+      <configuration name="RestAssuredTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1271" height="1044" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18084228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2184466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -228,15 +243,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33260393" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.33143508" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5008091" side_tool="true" weight="0.33143508" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32932165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -250,32 +265,44 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="502">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/weatherMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/WeatherMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="400">
+          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/weather.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/JUnit5Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="61" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="61" />
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/weatherMethodsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/RestAssuredTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        <state relative-caret-position="289">
+          <caret line="59" column="69" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
-public class weather {
+public class Main {
     public static void main(String[] args) {
-        String data=weatherMethods.getData("London","weather");
+        String data=WeatherMethods.getData("London","weather");
         System.out.println(data);
     }
 }
