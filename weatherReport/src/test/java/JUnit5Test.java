@@ -6,12 +6,17 @@ import java.time.Duration;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/** набор тестов для тестирования
+ * @see WeatherMethods#getData с исполльзованием фреймворка JUnit5
+ */
 class JUnit5Test {
+
     final static private String city = "London";
     final static private String country = "GB";
     final static private String period = "weather";;
 
-    // проверяем что в ответе по нашему запросу действительно London
+    /** тест проверяет состветствие города в запросе и ответе (London)
+     */
     @Test
     void TestCityFromData() {
         String data= WeatherMethods.getData(city,period);
@@ -19,7 +24,9 @@ class JUnit5Test {
         assertEquals(city, cityActual);
     }
 
-    // проверяем что значение "country" лежащее в "sys": {... ,"country": "GB" , ...} "GB"
+    /** тест проверяет состветствие одного из  вложеных полей ожидаемому
+     *  значение "country" лежащее в "sys": {... ,"country": "GB" , ...} должно быть "GB"
+     */
     @Test
     void TestCountryFromData() {
         String data= WeatherMethods.getData(city,period);
@@ -27,7 +34,8 @@ class JUnit5Test {
         assertEquals(country, countryActual);
     }
 
-    //проверка неправильно заданный город приводит к исключению в работе метода getData
+    /**тест проверяет появление  NullPointerException при неправильном запросе
+     */
     @Test
     void testExpectedException() {
         Assertions.assertThrows(NullPointerException.class, () -> {
@@ -36,7 +44,8 @@ class JUnit5Test {
         });
     }
 
-    //проверяем что ответ мы получаем быстрее чем за 1,5 сек
+    /** тест проверяет что запрос выполняется  быстрее чем через  за 1,5 сек
+     */
     @Test
     void timeoutExceeded() {
         assertTimeout(Duration.ofMillis(1500), () -> {

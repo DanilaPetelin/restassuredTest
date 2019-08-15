@@ -6,9 +6,15 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 class WeatherMethods {
-
+    /**ключ для доступа к API*/
     private static final String API_KEY="dfc1b58e7ecdfba571b36a9152292668";
 
+    /** метод возвращающий данные о погоде в указанном городе на сегодня или на 5 дней вперед
+     * @param city город в котором хотм узнать погоду
+     * @param period принимает два значения:
+     *    "weather" погода сегодня
+     *    "forecast" прогноз за 5 дней
+     */
     static String getData(String city, String period) {
 
         URL basePath = null;

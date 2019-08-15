@@ -14,7 +14,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,9 +32,9 @@
         <option value="$PROJECT_DIR$/src/test/java/weatherMethodsTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/WeatherMethodsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/WeatherMethods.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/JUnit5Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WeatherMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/RestAssuredTest.java" />
       </list>
     </option>
@@ -56,50 +56,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="weatherReport" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherReport" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weatherReport" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherReport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weatherReport" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherReport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weatherReport" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherReport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weatherReport" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherReport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weatherReport" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weatherReport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -109,6 +68,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -130,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestAssuredTest">
+  <component name="RunManager" selected="JUnit.RestAssuredTest.WrongCityTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="weatherReport" />
@@ -143,16 +103,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JUnit5Test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JUnit5Test.TestCityFromData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="weatherReport" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JUnit5Test" />
-      <option name="METHOD_NAME" value="TestCityFromData" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,13 +126,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RestAssuredTest.WrongCityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="weatherReport" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredTest" />
+      <option name="METHOD_NAME" value="WrongCityTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RestAssuredTest.WrongCityTest" />
         <item itemvalue="JUnit.RestAssuredTest" />
         <item itemvalue="JUnit.RestAssuredTest.JsonNotValidTest" />
         <item itemvalue="JUnit.JUnit5Test" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.JUnit5Test.TestCityFromData" />
       </list>
     </recent_temporary>
   </component>
@@ -200,9 +160,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JUnit5Test_testExpectedException - 2019.08.14 at 14h 59m 54s.xml">
-      <configuration name="JUnit5Test.testExpectedException" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RestAssuredTest - 2019.08.14 at 15h 09m 10s.xml">
       <configuration name="RestAssuredTest" configurationId="JUnit" />
     </history-entry>
@@ -230,11 +187,14 @@
     <history-entry file="RestAssuredTest - 2019.08.14 at 15h 59m 09s.xml">
       <configuration name="RestAssuredTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RestAssuredTest_WrongCityTest - 2019.08.15 at 11h 15m 04s.xml">
+      <configuration name="RestAssuredTest.WrongCityTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2184466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22168285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -272,27 +232,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WeatherMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JUnit5Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RestAssuredTest.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="59" column="69" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -301,8 +242,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RestAssuredTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JUnit5Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

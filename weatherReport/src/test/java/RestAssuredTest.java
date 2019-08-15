@@ -6,14 +6,22 @@ import static org.hamcrest.core.IsEqual.equalTo;
 
 import org.junit.jupiter.api.Test;
 
-public class RestAssuredTest {
-    // POST запрос к API openweathermap.org город в качестве параметра
-    private static final String basePath = "https://api.openweathermap.org/data/2.5/weather?q={city}&appid=dfc1b58e7ecdfba571b36a9152292668&units=metric";
+/** набор тестов для тестирования
+ * с исполльзованием фреймворка RestAssured
+ */
+class RestAssuredTest {
 
+    /** Поле адрес запроса к API openweathermap.org
+     *  city  - город в качестве параметра
+     */
+    private static final String basePath =
+        "https://api.openweathermap.org/data/2.5/weather?q={city}&appid=dfc1b58e7ecdfba571b36a9152292668&units=metric";
+
+    /** тест проверяет состветствие города в запросе и ответе (London)
+     *  выводит body ответа
+     */
     @Test
-    // проверяем что в ответе по нашему запросу действительно London
-    //выводим body ответа
-    public void CityNameTest() {
+    void CityNameTest() {
         when().get(basePath,"london")
                 .then().statusCode(200)
                 .and()
@@ -21,25 +29,32 @@ public class RestAssuredTest {
                 .log().body();
     }
 
+    /** тест проверяет состветствие одного из  вложеных полей ожидаемому
+     *  значение "country" лежащее в "sys": {... ,"country": "GB" , ...} должно быть "GB"
+     */
     @Test
-    //Gроверяем значение "country" лежащее в "sys": {... ,"country": "GB" , ...} должно быть "GB"
-    public void CountryNameTest() {
+    void CountryNameTest() {
         when().get(basePath,"london")
                 .then().statusCode(200)
                 .and()
                 .assertThat().body("sys.country", equalTo("GB"));
     }
 
+    /** тест проверяет что в ответе по запросу несуществующего города придет код "404"
+     * а тажке что в поле "message" будет значение "city not found"
+     */
     @Test
-    // проверяем что в ответе по запросу несуществующего города придет "404"
-    public void WrongCityTest() {
+    void WrongCityTest() {
         when().get(basePath,"lndon")
-                .then().statusCode(404);
+                .then().statusCode(404)
+                .and()
+                .assertThat().body("message", equalTo("city not found" ));
     }
 
+    /** тест проверяет соответсвие JSON структуры ответа структуре описанной в weather-schema.json
+     */
     @Test
-    // проверка ответа на соответсвие json структуре описанной в weather-schema.json
-    public void JsonValidTest() {
+    void JsonValidTest() {
         when().
                 get(basePath,"london")
                 .then().statusCode(200)
@@ -47,11 +62,10 @@ public class RestAssuredTest {
                 .assertThat().body(matchesJsonSchemaInClasspath("weather-schema.json"));
     }
 
+    /** тест проверяет  несоответсвие JSON структуры ответа неправильной структуре weather-wrong-schema.json
+     */
     @Test
-    // проверка ответа на соответсвие НЕПРАВИЛЬНОЙ структуре weather-wrong-schema.json
-    // должно быть "name": {"type": "string"}, а у нас "name": {"type": "number"}
-    //тест закончится неудачей
-    public void JsonNotValidTest() {
+    void JsonNotValidTest() {
         when().
                 get(basePath, "london")
                 .then()
@@ -59,9 +73,10 @@ public class RestAssuredTest {
                 .body(not(matchesJsonSchemaInClasspath("weather-wrong-schema.json")));
     }
 
+    /** тест проверяет что запрос выполняется  быстрее чем через  за 2000мс
+     */
     @Test
-    //проверяем что запрос приходит быстрее чем через 2000мс
-    public void TimeoutTest() {
+    void TimeoutTest() {
         when().
                 get(basePath, "london").
                 then().
