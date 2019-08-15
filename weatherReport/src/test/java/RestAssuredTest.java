@@ -7,7 +7,7 @@ import static org.hamcrest.core.IsEqual.equalTo;
 import org.junit.jupiter.api.Test;
 
 /** набор тестов для тестирования
- * с исполльзованием фреймворка RestAssured
+ * с использованием фреймворка RestAssured
  */
 class RestAssuredTest {
 
@@ -17,7 +17,7 @@ class RestAssuredTest {
     private static final String basePath =
         "https://api.openweathermap.org/data/2.5/weather?q={city}&appid=dfc1b58e7ecdfba571b36a9152292668&units=metric";
 
-    /** тест проверяет состветствие города в запросе и ответе (London)
+    /** тест проверяет соответствие города в запросе и ответе (London),
      *  выводит body ответа
      */
     @Test
@@ -29,7 +29,7 @@ class RestAssuredTest {
                 .log().body();
     }
 
-    /** тест проверяет состветствие одного из  вложеных полей ожидаемому
+    /** тест проверяет соответствие одного из  вложеных полей ожидаемому,
      *  значение "country" лежащее в "sys": {... ,"country": "GB" , ...} должно быть "GB"
      */
     @Test
@@ -40,8 +40,8 @@ class RestAssuredTest {
                 .assertThat().body("sys.country", equalTo("GB"));
     }
 
-    /** тест проверяет что в ответе по запросу несуществующего города придет код "404"
-     * а тажке что в поле "message" будет значение "city not found"
+    /** тест проверяет что в ответе по запросу несуществующего города придет код "404",
+     * а также, что в поле "message" будет значение "city not found"
      */
     @Test
     void WrongCityTest() {
@@ -51,7 +51,7 @@ class RestAssuredTest {
                 .assertThat().body("message", equalTo("city not found" ));
     }
 
-    /** тест проверяет соответсвие JSON структуры ответа структуре описанной в weather-schema.json
+    /** тест проверяет соответствие JSON структуры ответа структуре, описанной в weather-schema.json
      */
     @Test
     void JsonValidTest() {
@@ -62,7 +62,7 @@ class RestAssuredTest {
                 .assertThat().body(matchesJsonSchemaInClasspath("weather-schema.json"));
     }
 
-    /** тест проверяет  несоответсвие JSON структуры ответа неправильной структуре weather-wrong-schema.json
+    /** тест проверяет  несоответствие JSON структуры ответа неправильной структуре weather-wrong-schema.json
      */
     @Test
     void JsonNotValidTest() {
@@ -73,7 +73,7 @@ class RestAssuredTest {
                 .body(not(matchesJsonSchemaInClasspath("weather-wrong-schema.json")));
     }
 
-    /** тест проверяет что запрос выполняется  быстрее чем через  за 2000мс
+    /** тест проверяет что запрос выполняется  быстрее чем  за 2000мс
      */
     @Test
     void TimeoutTest() {

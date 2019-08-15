@@ -14,7 +14,55 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WeatherMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JUnit5Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RestAssuredTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1088">
+              <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,8 +82,8 @@
         <option value="$PROJECT_DIR$/src/test/java/WeatherMethodsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/JUnit5Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/WeatherMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/RestAssuredTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WeatherMethods.java" />
       </list>
     </option>
   </component>
@@ -56,8 +104,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="weatherReport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weatherReport" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -90,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RestAssuredTest.WrongCityTest">
+  <component name="RunManager" selected="JUnit.RestAssuredTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="weatherReport" />
@@ -138,10 +196,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RestAssuredTest.WrongCityTest" />
         <item itemvalue="JUnit.RestAssuredTest" />
-        <item itemvalue="JUnit.RestAssuredTest.JsonNotValidTest" />
         <item itemvalue="JUnit.JUnit5Test" />
+        <item itemvalue="JUnit.RestAssuredTest.WrongCityTest" />
+        <item itemvalue="JUnit.RestAssuredTest.JsonNotValidTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -160,12 +218,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RestAssuredTest - 2019.08.14 at 15h 09m 10s.xml">
-      <configuration name="RestAssuredTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JUnit5Test - 2019.08.14 at 15h 10m 08s.xml">
-      <configuration name="JUnit5Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JUnit5Test_TestCityFromData - 2019.08.14 at 15h 15m 05s.xml">
       <configuration name="JUnit5Test.TestCityFromData" configurationId="JUnit" />
     </history-entry>
@@ -190,11 +242,18 @@
     <history-entry file="RestAssuredTest_WrongCityTest - 2019.08.15 at 11h 15m 04s.xml">
       <configuration name="RestAssuredTest.WrongCityTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JUnit5Test - 2019.08.15 at 15h 46m 16s.xml">
+      <configuration name="JUnit5Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestAssuredTest - 2019.08.15 at 15h 47m 08s.xml">
+      <configuration name="RestAssuredTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22168285" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2249191" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -230,16 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WeatherMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -249,8 +298,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RestAssuredTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="1088">
+          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WeatherMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -259,8 +320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JUnit5Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="238">
+          <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

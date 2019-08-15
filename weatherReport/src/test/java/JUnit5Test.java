@@ -7,7 +7,7 @@ import java.time.Duration;
 import static org.junit.jupiter.api.Assertions.*;
 
 /** набор тестов для тестирования
- * @see WeatherMethods#getData с исполльзованием фреймворка JUnit5
+ * @see WeatherMethods#getData с использованием фреймворка JUnit5
  */
 class JUnit5Test {
 
@@ -15,7 +15,7 @@ class JUnit5Test {
     final static private String country = "GB";
     final static private String period = "weather";;
 
-    /** тест проверяет состветствие города в запросе и ответе (London)
+    /** тест проверяет соответствие города в запросе и ответе (London)
      */
     @Test
     void TestCityFromData() {
@@ -24,7 +24,7 @@ class JUnit5Test {
         assertEquals(city, cityActual);
     }
 
-    /** тест проверяет состветствие одного из  вложеных полей ожидаемому
+    /** тест проверяет соответствие одного из  вложеных полей ожидаемому,
      *  значение "country" лежащее в "sys": {... ,"country": "GB" , ...} должно быть "GB"
      */
     @Test
